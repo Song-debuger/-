@@ -11,7 +11,7 @@ public class Dijkstra {
                 {M, M, 0, 50, M, M},
                 {M, 10, M, 0, M, 10},
                 {M, M, M, 20, 0, 60},
-                {M, M, 30, M, M, 0}
+                {M, M, M, M, M, 0}
         };
         int start = 0;                     //表示从源点开始
         int shortPath[] = Dijkstra(weight, start);      //存储每一次的最短路径的长度
