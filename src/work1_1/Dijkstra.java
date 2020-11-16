@@ -25,7 +25,6 @@ public class Dijkstra {
     }
 
     private static int[] Dijkstra(int[][] weight, int start) {
-        // TODO Auto-generated method stub
         int n = weight.length;               //顶点的个数
         int shortPath[] = new int[n];         //保存start到其他各点的最短路径
         String path[] = new String[n];       //存储每一步，保存start到其他各点的字符串表示
